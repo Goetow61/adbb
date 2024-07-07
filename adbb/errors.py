@@ -52,3 +52,9 @@ class AniDBPathError(AniDBError):
 
 class IllegalAnimeObject(AniDBError):
     pass
+
+class FanartError(AniDBError):
+    pass
+
+class AniDBMissingImage(AniDBError):
+    pass
